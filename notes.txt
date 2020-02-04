@@ -1,0 +1,15 @@
+MVP
+Use the solution to your weekend homework (or use our solution). Add a controller and views to render a list of all the films in an unordered list.
+
+User Needs
+"As a cinema goer I want to visit localhost:4567/films and see a list of films"
+
+Create a controller.rb
+Create a views directory
+Create a new file called index.erb inside the directory
+In the controller.rb, use the Film.all() method to get all the film objects and pass them to the view.
+##Helpful Hints
+
+Remember to check the database name, you may need to create/recreate it, run the sql file to make the tables and run the console.rb to add some sample data.
+Remember the difference between <% %> and <%= %>
+You may need to use a for loop in the view file to display all the films...

@@ -40,5 +40,5 @@ ticket8.save()
 
 
 
-binding.pry
+
 nil

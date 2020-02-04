@@ -53,4 +53,5 @@ class Movie
     sql = "DELETE FROM movies"
     SqlRunner.run(sql)
   end
+
 end
